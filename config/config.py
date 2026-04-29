@@ -15,3 +15,4 @@ class DecisionTreeConfig:
     def __init__(self):
         with open(CONFIG_PATH / "model_config.yaml", "r") as f:
             self.params = yaml.safe_load(f)['DecisionTreeConfig']
+            self.params["random_state"] = RANDOM_STATE
