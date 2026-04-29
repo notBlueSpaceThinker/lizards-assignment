@@ -1,7 +1,7 @@
-#### Lizard Classification using DecisionTreeClassifier. Species and Sex classification
+### Lizard Classification using DecisionTreeClassifier. Species and Sex classification
 This project focuses on the classification of biological speciments into 8 different species and 2 gender categories using morphological and folidosis signs
 
-###### Project Structure
+#### Project Structure
 ```
 .
 ├── data/                   # Raw dataset
@@ -11,7 +11,7 @@ This project focuses on the classification of biological speciments into 8 diffe
 └── requirements.txt        # List of necessary Python libraries
 ```
 
-###### Setup
+#### Setup
 Clone the repo
 ```Bash
 git clone https://github.com/your-username/your-repo-name.git
@@ -32,7 +32,7 @@ Install dependencies
 python -m pip install -r requirements.txt
 ```
 
-###### Analysis
+#### Analysis
 A detailed pipeline can be seen in the `notebook.ipynb`. The tree and predictions for classes and genders will be visualized below
 
 **Tree for Species**
