@@ -2,12 +2,14 @@
 This project focuses on the classification of biological speciments into 8 different species and 2 gender categories using morphological and folidosis signs
 
 ###### Project Structure
+```
 .
 ├── data/                   # Raw dataset
 ├── config/                 # Configuration data
 ├── notebook.ipynb          # Main Jupyter Notebook containing analysis
 ├── task.pdf                # The task that the project is oriented towards
 └── requirements.txt        # List of necessary Python libraries
+```
 
 ###### Setup
 Clone the repo
@@ -39,8 +41,10 @@ A detailed pipeline can be seen in the `notebook.ipynb`. The tree and prediction
 **Tree for Sex**
 ![alt text](sex.png)
 
-**Predictions**
-              precision    recall  f1-score   support
+Predictions
+```
+Species-------------------------------------------------              
+               precision    recall  f1-score   support
 
            1       0.74      0.88      0.80        16
            2       0.81      0.81      0.81        16
@@ -54,9 +58,8 @@ A detailed pipeline can be seen in the `notebook.ipynb`. The tree and prediction
     accuracy                           0.82       141
    macro avg       0.78      0.79      0.78       141
 weighted avg       0.83      0.82      0.82       141
- 
 
-
+Sex-----------------------------------------------------
               precision    recall  f1-score   support
 
            1       0.84      0.88      0.86        69
@@ -65,3 +68,4 @@ weighted avg       0.83      0.82      0.82       141
     accuracy                           0.86       141
    macro avg       0.86      0.86      0.86       141
 weighted avg       0.86      0.86      0.86       141
+```
